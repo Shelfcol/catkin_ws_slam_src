@@ -1,0 +1,6 @@
+﻿1.打开ubuntu的惯导：oxford_gps_eth下的gps.launch
+2.使用32线激光雷达：velodyne_pointcloud下的32e_points.launch
+3.使用16线激光雷达：velodyne_pointcloud下的VLP16_points.launch
+4.现在还不能同时使用16线和32线激光雷达
+5.惯导的heading是[-pi,pi],逆时针旋转角度减小，逆时针旋转会有-pi到pi的突变
+6.opendrive一般定义的坐标系

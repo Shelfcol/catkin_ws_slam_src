@@ -1,0 +1,9 @@
+full_cloud_projected   /full_cloud_info（含强度信息）,这些都不是转换后的点云
+所有的点云转换然后进行稀疏之后的话题：laser_cloud_surround
+
+注意：注意激光雷达使用类型，16线和32线激光雷达需要在utility.h中更改一下
+运行lego-loam：roslaunch lego_loam run.launch（用的仿真时间）
+运行bag文件：rosbag play *.bag --clock --topic  /velodyne_points /imu/data
+保存为pcd文件：rosrun save_pcd_file add_point
+
+SC-Lego-loam: loop-clousure更好

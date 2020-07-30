@@ -1,0 +1,17 @@
+width: 10.0
+height: 10.0
+resolution: 0.2
+offsetx: -5.0
+offsety: -5.0
+limit_height: -1
+limit_low: -1.4
+kernal_di: 1
+curvature: 0.002
+height_diff: 0.3
+voxelthreshold: 0.1
+HeightUpper: 0.3
+HeightLower: -0.3
+sub_topic: "velodyne_points"
+pub_topic: "map"
+
+

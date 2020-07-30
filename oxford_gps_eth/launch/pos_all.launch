@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find oxford_gps_eth)/launch/gps.launch" />
+  <node pkg="oxford_gps_eth" type="lat2xy.py" name="lat2xy"/>
+</launch>

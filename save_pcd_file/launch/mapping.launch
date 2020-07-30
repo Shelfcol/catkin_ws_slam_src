@@ -1,0 +1,10 @@
+<launch>
+	<!-- mapping Node -->
+	<node pkg="mapping" type="map_node" name="mapping_node" output="screen" />
+	<node pkg="mapping" type="transform" name="transform_node" output="screen" />
+	<!-- <node pkg="mapping" type="add_point" name="add_point_node" output="screen" /> -->
+	<node pkg="mapping" type="pub_two_point" name="pub_two_point_node" output="screen" />
+	<node pkg="mapping" type="key_point" name="key_point_node" output="screen" />
+	<node pkg="mapping" type="lat2xy.py" name="lat2xy"  output="screen"/>
+	
+</launch>
